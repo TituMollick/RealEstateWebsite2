@@ -1,0 +1,644 @@
+/*  
+  Titu Mollick
+  https://titumallick.com/  
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/* Start Header Part CSS */
+#header{
+  /* clear: both; */
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/home_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  position: relative;
+}
+#header .header_overlay{
+  background: rgba(67, 54, 255, 0.65);
+  width: 100%;
+  height: 600px;
+}
+#header .header_overlay .header_logo{
+  padding: 20px 0 0 10px;
+}
+#header .header_overlay .header_menu{
+  top: 20px;
+  right: 10px;
+  position: absolute;
+}
+/* Start Hero Part CSS */
+#header .hero_head{
+  text-align: center;
+  padding-top: 100px;
+}
+#header .hero_head h3{
+  color: #F1F1F7;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+#header .hero_head h1{
+  color: #F1F1F7;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+#header .hero_head .hero_button{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .hero_head .hero_button .hero_btn button{
+  height: 50px;
+  width: 150px;
+  background: #7567F8;
+  margin: 0 10px;
+  border: none;
+  border-radius: 30px;
+}
+#header .hero_head .hero_button .hero_btn button a{
+  text-decoration: none;
+  color: #F1F1F7;
+  font-size: 16px;
+}
+#header .hero_head .hero_button .hero_btn button:hover{
+  background: #C900FC;
+  transition: .4s;
+}
+#header .hero_head .hero_button .hero_btn_2 button{
+  background: #C900FC;
+}
+#header .hero_head .hero_button .hero_btn_2 button:hover{
+  background: #7567F8;
+  transition: .4s;
+}
+/* End Hero Part CSS */
+/* End Header Part CSS */
+/* Start Solutions Part CSS */
+#solutions{
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+}
+#solutions .solution_head{
+  padding: 100px 0;
+}
+#solutions .solution_head h2{
+  color: #212127;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#solutions .solution_head hr{
+  width: 23%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #ECECEC;
+}
+#solutions .solution_head .line_02{
+  width: 5%;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: -4px;
+  background: #2B40B9;
+}
+#solutions .solution_part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#solutions .solution_part .solution_icon{
+  width: 33%;
+  height: 270px;
+  margin: 0 15px;
+  position: relative;
+}
+#solutions .solution_part .solution_icon img{
+  height: 60px; 
+  width: 60px;
+  position: absolute;
+  top: 0;
+  left: 155px;
+}
+#solutions .solution_part .solution_icon h4{
+  text-align: center;
+  padding-top: 90px;
+  color: #040000;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#solutions .solution_part .solution_icon p{
+  text-align: center;
+  padding: 10px 30px;
+  color: #040000;
+  font-size: 17px;
+  line-height: 1.5;
+}
+/* End Solutions Part CSS */
+/* Start Video Part CSS */
+#video{
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+#video .video_part{
+  position: relative;
+  width: 100%;
+  height: 400px; 
+  z-index: 0;
+}
+#video .video_overlay{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex; 
+  z-index: 1;
+  background-image: url(../img/video_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#video .video_overlay h2{
+  margin: 0 auto;
+  padding-top: 220px;
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 100%;
+  background: rgba(67, 54, 255, 0.65);
+}
+/* End Video Part CSS */
+/* Start Success Work Part CSS */
+#success{
+  width: 85%;
+  height: 350px;
+  margin: 0 auto;
+}
+#success .success_part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+#success .success_part .success_icon{
+  width: 25%;
+  height: 160px;
+  margin: 0 15px;
+  position: relative;
+}
+#success .success_part .success_icon img{
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  top: 0;
+  left: 102px;
+}
+#success .success_part .success_icon h2{
+  font-size: 35px;
+  color: #040000;
+  text-align: center;
+  padding-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#success .success_part .success_icon p{
+  font-size: 15px;
+  color: #2B40B9;
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* End Success Work Part CSS */
+/* Start About Part CSS */
+#about{
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+#about .about_img{
+  margin-left: 35px;
+}
+#about .about_img img{
+  height: 480px;
+  width: 480px;
+  border-radius: 10px;
+}
+#about .about_head{
+  height: 450px;
+  width: 500px;
+  margin-left: 70px;
+}
+#about .about_head h2{
+  color: #212127;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+}
+#about .about_head ul{
+  padding-left: 55px;
+}
+#about .about_head ul li{
+  list-style: none;
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7b7b81;
+}
+#about .about_head .about_btn{
+  padding: 40px 0 0 60px;
+}
+#about .about_head .about_btn button{
+  height: 50px;
+  width: 150px;
+  background: #7567F8;
+  border: none;
+  border-radius: 30px;
+}
+#about .about_head .about_btn button a{
+  text-decoration: none;
+  color: #F1F1F7;
+  font-size: 16px;
+}
+#about .about_head .about_btn button:hover{
+  background: #C900FC;
+  transition: .4s;
+}
+/* End About Part CSS */
+/* Start Executive Team Part CSS */
+#team{
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+}
+#team .team_head{
+  padding: 100px 0;
+}
+#team .team_head h2{
+  color: #212127;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#team .team_head hr{
+  width: 23%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #ECECEC;
+}
+#team .team_head .line_02{
+  width: 5%;
+  height: 3px;
+  margin: 0 auto;
+  margin-top: -4px;
+  background: #2B40B9;
+}
+#team .team_part{
+  width: 95%;
+  height: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+#team .team_part .team_img{
+  width: 22%;
+  height: 400px;
+  margin: 0 15px;
+}
+#team .team_part .team_img img{
+  width: 255px;
+  height: 255px;
+  border-radius: 50%;
+}
+#team .team_part .team_img h4{
+ text-align: center;
+ padding: 15px 0;
+ font-size: 20px;
+ font-weight: 300;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #2B40B9;
+}
+#team .team_part .team_img h6{
+ text-align: center;
+ padding: 10px 0;
+ font-size: 15px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #212127;
+}
+#team .team_part .team_img .team_sosal img{
+  width: 110px;
+  height: 35px;
+  border-radius: 0%;
+  padding: 10px 65px;
+}
+/* End Executive Team Part CSS */
+/*  
+  Titu Mollick
+  https://titumallick.com/  
+*/
+/* Start Experient Part CSS */
+#experient{
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+  background-image: url(../img/experient_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#experient .experient_overlay{
+  background: rgba(54, 101, 255, 0.616);
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+#experient .experient_overlay .experient_head{
+  width: 35%;
+  padding: 100px 0 0 100px;
+}
+#experient .experient_overlay .experient_head h2{
+  color: #F1F1F7;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+#experient .experient_overlay .experient_head .progress_bar{
+  padding-top: 40px;
+}
+#experient .experient_overlay .progress_bar .experient-bar{
+  background: #7567F8;
+  height: 15px;
+  width: 100%;
+}
+#experient .experient_overlay .progress_bar .experient-bar .progress{
+  background: #ECECEC;
+  float: right;
+  margin-top: 5px;
+}
+#experient .experient_overlay .progress_bar p{
+  color: #ECECEC;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -20px;
+}
+#experient .experient_overlay .progress_bar .text{
+  color: #ECECEC;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right; 
+  margin-bottom: 10px;
+}
+#experient .experient_overlay .experient_work{
+  width: 25%;
+  margin-left: 10px; 
+}
+#experient .experient_overlay .experient_work .experient_con{
+  height: 190px;
+  margin-top: 40px;
+  padding: 30px;   
+}
+#experient .experient_overlay .experient_work .experient_title{
+  display: flex;
+  justify-content: left;
+}
+#experient .experient_overlay .experient_work .experient_title img{
+  height: 45px;
+  width: 45px;
+  border-radius: 10px;
+}
+#experient .experient_overlay .experient_work .experient_title h5{
+  padding: 15px 0 0 10px;
+  font-size: 16px;
+  color: #ECECEC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#experient .experient_overlay .experient_work hr{
+  margin: 15px 0;
+}
+#experient .experient_overlay .experient_work p{
+  font-size: 15px;
+  color: #ECECEC;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+/* End Experient Part CSS */
+/* Start Unique Part CSS */
+#unique{
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#unique .unique_head{
+  width: 50%;
+  height: 600px;
+}
+#unique .unique_head h2{
+  color: #191A23;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 140px 140px 0 140px;
+}
+#unique .unique_head p{
+  color: #7567F8;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  line-height: 1.5;
+  margin: 10px 150px 20px 140px;
+}
+#unique .unique_head .unique_btn{
+  margin: 40px 0 0 140px;
+}
+#unique .unique_head .unique_btn button{
+  height: 50px;
+  width: 150px;
+  background: none;
+  margin: 0 10px;
+  border: 1px solid #C900FC;
+  border-radius: 30px;
+}
+#unique .unique_head .unique_btn button a{
+  text-decoration: none;
+  color: #C900FC;
+  font-size: 16px;
+}
+#unique .unique_head .unique_btn button:hover{
+  background: #7567F8;
+  transition: .4s;
+}
+#unique .unique_video{
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 600px;
+  position: relative;
+  display: inline;
+  z-index: -1;
+}
+/* #reel {
+  width: 100vw;
+  visibility: hidden;
+  min-width: 100%; 
+  min-height: 100%;
+} */
+#unique .unique_video .overlay{
+  position: absolute;
+  right: 0;
+  height: 600px;
+  width: 100%;
+  top: 0px;
+  /* z-index: 0; */
+  /* -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+/* End Unique Part CSS */
+/* Start Testimonials Part CSS */
+#testimonial{
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../img/testimonial_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#testimonial .testimonial_overlay{
+  width: 100%;
+  height: 700px;
+  background: rgba(54, 101, 255, 0.746);
+}
+#testimonial .testimonial_overlay h5{
+  color: #ECECEC;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 80px;
+}
+#testimonial .testimonial_overlay h2{
+  color: #ECECEC;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 20px;
+}
+#testimonial .testimonial_overlay p{
+  color: #ECECEC;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  padding: 100px 230px;
+}
+#testimonial .testimonial_overlay .client_img img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 645px;
+}
+#testimonial .testimonial_overlay .client_img h6{
+  color: #ECECEC;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+#testimonial .testimonial_overlay .client_img p{
+  padding: 10px 0;
+}
+/* End Testimonials Part CSS */
+/* Start Location Part CSS */
+.location{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -50px;
+}
+/* End Location Part CSS */
+/* Start Footer Part CSS */
+#footer{
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url(../img/footer_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 125px;
+}
+#footer .footer_overlay{
+  width: 100%;
+  height: 350px;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer_head{
+  width: 25%;
+  height: 250px;
+  margin: 10px 15px;
+}
+#footer .footer_head h3{
+  padding : 10px 20px;
+  color: #ECECEC;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#footer .footer_head p{
+  padding : 10px 30px 10px 20px;
+  color: #ECECEC;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#footer .footer_head .footer_icon{
+  padding: 10px 0 0 20px;
+}
+#footer .footer_head .footer_icon ul li{
+  list-style: none;
+  padding: 10px 0;
+  color: #ECECEC;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* CopyRight Area */
+#footer .copyright_head{
+  width: 100%;
+  height: 50px;
+  background: #FFF;
+}
+#footer .copyright_head p{
+  text-align: center;
+  color: #7b7b81;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 0;
+}
+/* End Footer Part CSS */
+/*  
+  Titu Mollick
+  https://titumallick.com/  
+*/
